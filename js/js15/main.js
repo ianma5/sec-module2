@@ -41,8 +41,9 @@ const newString = myArray.join(); // creates string of all elements
 const newArrayString = newString.split(",");
 console.log(newArrayString); */
 
-const MyArrayA = ["A","B","C"];
+/* const MyArrayA = ["A","B","C"];
 const MyArrayB = ["D","E","F"];
 
-const newArray = MyArrayA.concat(MyArrayB); // joins the two arrays
-console.log(newArray);
+// const newArray = MyArrayA.concat(MyArrayB); // joins the two arrays
+const newArray = [...MyArrayA,...MyArrayB];
+console.log(newArray); */
