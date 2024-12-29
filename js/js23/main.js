@@ -20,3 +20,5 @@ const storeLength = localStorage.length;
 const myLocalStore = JSON.parse(localStorage.getItem("myLocalStore")); // gets object back
 
 console.log(storeLength);
+
+// .clear(), .remove()
